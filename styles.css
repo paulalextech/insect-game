@@ -5,8 +5,43 @@
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	background-color: #800080;
+	color: #fff;
+	font-family: 'Press Start 2P', sans-serif;
 	height: 100vh;
 	overflow: hidden;
 	margin: 0;
+	text-align: center;
+}
+
+.btn {
+	border: 0;
+	background-color: #fff;
+	color: #800080;
+	padding: 20px 20px;
+	font-family: inherit;
+	cursor: pointer;
+}
+
+.btn:hover {
+	opacity: 0.9;
+}
+
+.btn:focus {
+	outline: 0;
+}
+
+.screen {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.choose-insect-btn img {
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
 }
