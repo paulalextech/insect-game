@@ -133,6 +133,10 @@ h1 {
 	justify-content: center;
 	width: 100px;
 	height: 100px;
+	position: absolute;
+	top: 200px;
+	left: 300px;
+	transform: translate(-50%, -50%);
 }
 
 .insect img {
